@@ -7,7 +7,7 @@ http://lib.dongjak.go.kr/dj/index.do?getContextPath=&isMobile=false
 
 -------------
 
-1. 싸이트에서 데이터 가져오기
+### 1. 싸이트에서 데이터 가져오기
 
 #### 처음에는 http://210.99.187.108:8088/EZ-950SL_Web/mainPage/SI_searchbookindex_Service.jsp 에서
 #### 바로 데이터를 가져와 봤습니다. 
@@ -31,7 +31,7 @@ browser.find_element_by_xpath("//img[contains(@onclick,\"SearchALL()\")]").click
 
 
 
-2. txt file을 csv 파일로
+### 2. txt file을 csv 파일로
 
 #### txt 파일을 저장할 때 바로 csv 파일로 저장 하면 안 될 이유가 없습니다만, 단 한가지 이유 때문에 그렇게 안 했습니다
 #### python 2.7 에서는 euc_kr 를 이용해서 출력하다보면 편집이 안 됩니다. 읽은 거에서 s + " " 를 했을 뿐인데
